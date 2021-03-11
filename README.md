@@ -15,13 +15,13 @@
   
    ## Parameters
 
-    + --lr: learning rate
-    + --type: local-structure or global-structure
-    + --norm_type： centering and scaling in paper
-    + --attention_type: five attention models in paper
-    + --num_ways: classes number in meta-task in paper
-    + --spt_shots: support-set number in meta-task in paper
-    + --qry_shots: query-set number in meta-task in paper
+    + --lr:               learning rate
+    + --type:             local-structure or global-structure
+    + --norm_type：       centering and scaling in paper
+    + --attention_type:   five attention models in paper
+    + --num_ways:         classes number in meta-task in paper
+    + --spt_shots:        support-set number in meta-task in paper
+    + --qry_shots:        query-set number in meta-task in paper
  
    ## Dataset
    We conduct experiments on the multi-class ***Chembl*** dataset and public dataset ***TRIANGLES***. Detailed information about these two datasets illustrated in paper.
