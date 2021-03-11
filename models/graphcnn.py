@@ -123,7 +123,7 @@ class GraphCNN(nn.Module):
             #pooling strategies
             out = torch.max(out, dim=1)[0]
             # out = torch.mean(out, dim = 1)
-            # out = torch.sum(out, dim = 1)
+            # out = out[0]
             return out
 
 
@@ -164,7 +164,7 @@ class GraphCNN(nn.Module):
             # pooling strategies
             out = torch.max(out, dim=1)[0]
             # out = torch.mean(out, dim = 1)
-            # out = torch.sum(out, dim = 1)
+            # out = out[0]
             return out
 
 
