@@ -7,12 +7,10 @@
   We used the following Python packages for core development. We tested on `Python 3.7`.
   ```
   pytorch                   1.0.1
-  torch-cluster             1.2.4              
-  torch-geometric           1.0.3
-  torch-scatter             1.1.2 
-  torch-sparse              0.2.4
-  torch-spline-conv         1.0.6
   rdkit                     2019.03.1.0
+  numpy                     
+  json
+  pandas
   ```
   
    ## Parameters
@@ -39,12 +37,4 @@
    or
    
    `nohup python main_global.py --type=gloabl --attention_type=self-attention --dataset=TRIANGLES --num_ways=3 > TRIANGLES_global_log.out &`
-   
-   
-   
-   
-   
-   
-   
-   
    
