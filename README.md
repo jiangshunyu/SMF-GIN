@@ -25,7 +25,7 @@
  
    ## Dataset
    We conduct experiments on the multi-class ***Chembl*** dataset and public dataset ***TRIANGLES***. Detailed information about these two datasets illustrated in paper.
-   ***Chembl*** and ***TRIANGLES*** datasets were saved in ***'./dataset/dataset/'***.
+   Dataset ***ChemBL*** was too large, so we divided it into 273 subfiles according to classes. Finally, we compressed and uploaded the ***ChemBL*** and ***TRIANGLES***      datasets, and decompressed them by yourselevs if necessary.
    
    ## Examples
    We provide solutions of local structure and global structure respectively, which contain five different models of attention mechanism.
